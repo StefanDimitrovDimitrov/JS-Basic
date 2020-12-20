@@ -1,1 +1,6 @@
-console.log( 2 + 4 + "4" + 2+1)
+let a = 123
+let b = "123"
+
+c = (a + b) + (b + a)
+
+console.log(c)
