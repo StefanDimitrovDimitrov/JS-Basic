@@ -3,9 +3,9 @@ function bonus(num) {
     let bonus_points = 0.0; 
 
     if (num > 1000){
-        bonus_point = num * 0.10;
+        bonus_points = num * 0.10;
     } else if(num > 100) {
-        bonuse_point = num * 0.20;
+        bonus_points = num * 0.20;
     } else{
         bonus_points = 5;
     }
