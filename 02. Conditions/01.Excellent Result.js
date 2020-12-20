@@ -6,3 +6,4 @@ function score(score_students) {
 }
 
 score("5.50")
+score("5.50")

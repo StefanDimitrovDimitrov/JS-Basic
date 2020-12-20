@@ -4,7 +4,8 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
+
+
         {
             "type": "node",
             "request": "launch",
@@ -12,7 +13,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Excellent Result.js"
+            "program": "${workspaceFolder}/02.Greater_Number.js"
         }
     ]
 }
