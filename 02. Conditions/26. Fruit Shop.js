@@ -47,8 +47,8 @@ function fruitShop(fruit, day, quantity){
             }
         break
         default:
-            console.log("error")
-        break
+            console.log("error");
+            break
         }
     if (result != 0){
         console.log(result.toFixed(2))   
