@@ -1,59 +1,59 @@
-function fruitShop(fruit, day, quantity){
+function fruitShop(fruit, day, quantity) {
     quantity = Number(quantity);
     let result = 0
-    
-    switch(day){
+
+    switch (day) {
         case "Monday":
         case "Tuesday":
         case "Wednesday":
         case "Thursday":
         case "Friday":
-            if (fruit == "banana" ){
+            if (fruit == "banana") {
                 result = quantity * 2.5;
-            }else if (fruit == "apple"){
+            } else if (fruit == "apple") {
                 result = quantity * 1.2;
-            }else if(fruit == "orange"){
+            } else if (fruit == "orange") {
                 result = quantity * 0.85;
-            }else if(fruit == "grapefruit"){
+            } else if (fruit == "grapefruit") {
                 result = quantity * 1.45;
-            }else if(fruit == "kiwi"){
+            } else if (fruit == "kiwi") {
                 result = quantity * 2.7;
-            }else if(fruit == "pineapple"){
+            } else if (fruit == "pineapple") {
                 result = quantity * 5.5;
-            }else if(fruit == "grapes"){
+            } else if (fruit == "grapes") {
                 result = quantity * 3.85;
-            }else{
+            } else {
                 console.log("error");
             }
-        break
+            break
         case "Saturday":
         case "Sunday":
-            if (fruit == "banana" ){
+            if (fruit == "banana") {
                 result = quantity * 2.7;
-            }else if (fruit == "apple"){
+            } else if (fruit == "apple") {
                 result = quantity * 1.25;
-            }else if(fruit == "orange"){
+            } else if (fruit == "orange") {
                 result = quantity * 0.9;
-            }else if(fruit == "grapefruit"){
+            } else if (fruit == "grapefruit") {
                 result = quantity * 1.6;
-            }else if(fruit == "kiwi"){
+            } else if (fruit == "kiwi") {
                 result = quantity * 3;
-            }else if(fruit == "pineapple"){
+            } else if (fruit == "pineapple") {
                 result = quantity * 5.6;
-            }else if(fruit == "grapes"){
+            } else if (fruit == "grapes") {
                 result = quantity * 4.2;
-            }else{
+            } else {
                 console.log("error");
             }
-        break
+            break
         default:
             console.log("error");
             break
-        }
-    if (result != 0){
-        console.log(result.toFixed(2))   
-    }    
-     
+    }
+    if (result != 0) {
+        console.log(result.toFixed(2))
+    }
+
 }
 
 
