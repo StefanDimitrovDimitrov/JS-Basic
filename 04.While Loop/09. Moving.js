@@ -19,7 +19,7 @@ function moving(arr){
 
     }
     if (freeSpace){
-        console.log(`${spapce - currentSpace} Cubic meters left.`)
+        console.log(`${space - currentSpace} Cubic meters left.`)
     }
 }
 
