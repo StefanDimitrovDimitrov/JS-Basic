@@ -1,29 +1,28 @@
 function oldBook(arr){
-    let index = 0
-    let findBook = arr[index]
-    let isFound = false
-    let currentBook = ""
-    let count = 0
+    let findBook = arr[0];
+    let index = 1;
+    let isFound = false;
+    let currentBook = "";
+    let count = 0;
 
     while (!isFound){
-        index += 1
-        currentBook = arr[index]
+        currentBook = arr[index++];
         if (currentBook === "No More Books"){
-            break
+            break;
         }
         if (currentBook === findBook){
-            isFound = true
-            break
+            isFound = true;
+            break;
         }else {
-            count +=1
+            count +=1;
         }
     
     }
     if (isFound){
-        console.log(`You checked ${count} books and found it.`)
+        console.log(`You checked ${count} books and found it.`);
     }else {
-        console.log(`The book you search is not here!`)
-        console.log(`You checked ${count} books.`)
+        console.log(`The book you search is not here!`);
+        console.log(`You checked ${count} books.`);
     }
     
 }
